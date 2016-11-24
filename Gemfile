@@ -6,6 +6,7 @@ gem 'sqlite3'
 gem 'puma', '~> 3.0'
 gem 'jsonapi-resources'
 gem 'bcrypt'
+gem 'doorkeeper'
 # gem 'rack-cors'
 
 group :development, :test do
