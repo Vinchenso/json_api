@@ -2,7 +2,7 @@ Doorkeeper.configure do
   orm :active_record
 
   resource_owner_from_credentials do
-    user = User.find_by_id(email_address: params[:username])
+    user = User.find_by(email_address: params[:username])
     user && user.authenticate(params[:password])
   end
 
