@@ -1,4 +1,6 @@
 example_id                                       | status | run_time        |
 ------------------------------------------------ | ------ | --------------- |
-./spec/requests/oauth_password_flow_spec.rb[1:1] | passed | 0.12008 seconds |
-./spec/requests/oauth_password_flow_spec.rb[1:2] | passed | 0.73064 seconds |
+./spec/models/users_spec.rb[1:1]                 | passed | 0.00364 seconds |
+./spec/models/users_spec.rb[1:2]                 | passed | 0.0258 seconds  |
+./spec/requests/oauth_password_flow_spec.rb[1:1] | passed | 0.05145 seconds |
+./spec/requests/oauth_password_flow_spec.rb[1:2] | passed | 0.32881 seconds |

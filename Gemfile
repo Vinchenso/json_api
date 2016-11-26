@@ -7,7 +7,7 @@ gem 'puma', '~> 3.0'
 gem 'jsonapi-resources'
 gem 'doorkeeper'
 gem 'bcrypt'
-# gem 'rack-cors'
+gem 'rack-cors'
 
 group :development, :test do
   gem 'byebug', platform: :mri
